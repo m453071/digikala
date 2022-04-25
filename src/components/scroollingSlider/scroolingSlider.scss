@@ -1,0 +1,65 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fb507d;
+    .card {
+        flex: 0 0 auto;
+        width: 200px;
+        padding: 15px;
+        margin: 15px 1px 15px 1px;
+        background-color: white;
+        border: none;
+        .img-card{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+    }
+  }
+
+  .object-cover{
+    object-fit: cover;
+  }
+
+
+  .h-150{
+    height: 150px;
+  }
+  .w-90{
+    width: 90%;
+  }
+
+  .mt-2{
+      margin-top: 40px;
+  }
+
+  .bg-sugest{
+    background-image: url('../../images/freshPattern.svg');
+    background-repeat: no-repeat;
+   
+
+  }
+
+  .bg-gray{
+    background-color: lightgray;
+  }
+
+  .item-sugess{
+    width: 70px;
+    height: 70px;
+    background: white;
+    margin: 5px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .row{
+    padding: 0px;
+    margin: 0px;
+  }

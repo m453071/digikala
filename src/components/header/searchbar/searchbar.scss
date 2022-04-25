@@ -1,0 +1,39 @@
+
+.searchbox{
+    width: 200px;
+    height: 40px;
+    background-color: #ecf0f1;
+    color: #95a5a6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        &__item{
+           position: fixed;
+           top: 0;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           margin-top: 100vh;
+           transition: margin-top ease 0.3s;
+           background-color: white;
+           z-index: 1001;
+           &.open{
+               margin-top: 0;
+           }
+        }
+        &__content{
+           padding: 30px;
+           border-bottom: 3px solid rgb(52, 125, 138);  
+        }
+}
+
+.searcinput{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+
+
+
